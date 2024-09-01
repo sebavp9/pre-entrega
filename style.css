@@ -1,4 +1,15 @@
 /* medidas logo */
 .logo{
-    height: 80px;
+    height: 80px;}
+
+/* estilo bienvenida */
+.bienvenida{
+    display: flex;
+    flex-wrap: wrap;/* corre las imagenes hacia abajo cuando no queda espacio en la pantalla */
+    justify-content: right;/*centrando las imagenes de manera horizontal,para que queden en medio y no a la derecha ni izquerda*/}
+
+/* imagen de .bienvenida */
+.imagen-bienvenida{
+    height: 300px;
+    margin: 20px;
 }
