@@ -19,14 +19,22 @@
     text-align: center;
     color:white}
 
-/* estilo bienvenida */
-.bienvenida{
+ /* imagenes del body (en la seccion de bienvenida*/
+ .responsive-images{
     display: flex;
-    flex-wrap: wrap;/* corre las imagenes hacia abajo cuando no queda espacio en la pantalla */
-    justify-content: right;/*centrando las imagenes de manera horizontal,para que queden en medio y no a la derecha ni izquerda*/}
+    flex-wrap: wrap;/* que las imagenes se corran hacia abajo cuando no da el tamaño hacia abajo en la pantalla  */
+    justify-content: right;/*centrando las imagenes de manera horizontal,para que queden en medio y no a la derecha ni izquerda*/
+    transform: translate(-120px, 80px); /* traslada de lugar las imagenes */
+    gap: 20px; }
 
-/* imagen de .bienvenida */
-.imagen-bienvenida{
-    height: 300px;
-    margin: 20px;
-}
+ /* titulo y parrafo del body (en la seccion de bienvenida*/
+ .titulo-parrafo{
+    display: flex;
+    top: 100px;
+    left: -200px;
+    width: 200px;
+    transform: translate(-120px, 80px)
+ }
+
+   
+
