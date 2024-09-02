@@ -30,11 +30,15 @@
  /* titulo y parrafo del body (en la seccion de bienvenida*/
  .titulo-parrafo{
     display: flex;
-    top: 100px;
-    left: -200px;
     width: 200px;
-    transform: translate(-120px, 80px)
- }
+    transform: translate(-100px, 80px); }
+
+    .icono-wsp{
+        height: 80px;
+        position: fixed;/* fijar el logo para que nos siga cuando scroleamos */
+       right: 40px;
+        bottom: 50px;}
+    
 
    
 
